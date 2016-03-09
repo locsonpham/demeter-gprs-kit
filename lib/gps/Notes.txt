@@ -1,0 +1,6 @@
+- Config UART
+- Init a buffer
+- in UART_IRQ_Handler :
+	+ Add data to buffer
+	+ use GPS_CommandParser
+- get data use gpsInfo variable
