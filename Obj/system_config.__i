@@ -1,0 +1,5 @@
+-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\Src -I..\F4Lib\CMSIS\Device\ST\STM32F4xx\Include -I..\F4Lib\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm -I..\F4Lib\STM32F4xx_StdPeriph_Driver\inc -I.\Src\fatfs -I.\Src\fatfs\option -I.\Src\gsm -I.\Src\hc05 -I.\Src\rf433 -I.\Src\rs232 -I.\Src\rs485 -I.\Src\ethernet\inc -I.\Src\freemodbus\modbus -I.\Src\freemodbus\modbus\ascii -I.\Src\freemodbus\modbus\rtu -I.\Src\freemodbus\modbus\tcp -I.\Src\freemodbus\modbus\include -I.\Src\freemodbus\port -I.\Src\freemodbus -I.\Src\sht1x -I.\Src\bh1750 -I.\Src\bmp180 --c99 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\ST\STM32F4xx 
+-DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DHSE_VALUE="8000000" -o ".\Obj\system_config.o" --omf_browse ".\Obj\system_config.crf" --depend ".\Obj\system_config.d" "Src\system_config.c"

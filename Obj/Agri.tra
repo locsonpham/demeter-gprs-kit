@@ -1,0 +1,83 @@
+*** Creating Trace Output File '.\Obj\Agri.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\startup_stm32f40xx.o"'
+### List of Objects: adding '".\obj\misc.o"'
+### List of Objects: adding '".\obj\stm32f4xx_adc.o"'
+### List of Objects: adding '".\obj\stm32f4xx_dma.o"'
+### List of Objects: adding '".\obj\stm32f4xx_exti.o"'
+### List of Objects: adding '".\obj\stm32f4xx_flash.o"'
+### List of Objects: adding '".\obj\stm32f4xx_gpio.o"'
+### List of Objects: adding '".\obj\stm32f4xx_i2c.o"'
+### List of Objects: adding '".\obj\stm32f4xx_rcc.o"'
+### List of Objects: adding '".\obj\stm32f4xx_spi.o"'
+### List of Objects: adding '".\obj\stm32f4xx_tim.o"'
+### List of Objects: adding '".\obj\stm32f4xx_usart.o"'
+### List of Objects: adding '".\obj\stm32f4xx_wwdg.o"'
+### List of Objects: adding '".\obj\stm32f4xx_syscfg.o"'
+### List of Objects: adding '".\obj\main.o"'
+### List of Objects: adding '".\obj\stm32f4xx_it.o"'
+### List of Objects: adding '".\obj\system_stm32f4xx.o"'
+### List of Objects: adding '".\obj\system_config.o"'
+### List of Objects: adding '".\obj\systick.o"'
+### List of Objects: adding '".\obj\uart.o"'
+### List of Objects: adding '".\obj\input.o"'
+### List of Objects: adding '".\obj\output.o"'
+### List of Objects: adding '".\obj\adc.o"'
+### List of Objects: adding '".\obj\spi.o"'
+### List of Objects: adding '".\obj\ringbuf.o"'
+### List of Objects: adding '".\obj\m_time.o"'
+### List of Objects: adding '".\obj\sys_time.o"'
+### List of Objects: adding '".\obj\flash.o"'
+### List of Objects: adding '".\obj\sensor.o"'
+### List of Objects: adding '".\obj\jsmn.o"'
+### List of Objects: adding '".\obj\i2c.o"'
+### List of Objects: adding '".\obj\tracking.o"'
+### List of Objects: adding '".\obj\spiflash.o"'
+### List of Objects: adding '".\obj\db.o"'
+### List of Objects: adding '".\obj\mbhandler.o"'
+### List of Objects: adding '".\obj\portevent.o"'
+### List of Objects: adding '".\obj\portserial.o"'
+### List of Objects: adding '".\obj\porttimer.o"'
+### List of Objects: adding '".\obj\mb.o"'
+### List of Objects: adding '".\obj\mbcrc.o"'
+### List of Objects: adding '".\obj\mbrtu.o"'
+### List of Objects: adding '".\obj\mbascii.o"'
+### List of Objects: adding '".\obj\mbtcp.o"'
+### List of Objects: adding '".\obj\mbfunccoils.o"'
+### List of Objects: adding '".\obj\mbfuncdiag.o"'
+### List of Objects: adding '".\obj\mbfuncdisc.o"'
+### List of Objects: adding '".\obj\mbfuncholding.o"'
+### List of Objects: adding '".\obj\mbfuncinput.o"'
+### List of Objects: adding '".\obj\mbfuncother.o"'
+### List of Objects: adding '".\obj\mbutils.o"'
+### List of Objects: adding '".\obj\com.o"'
+### List of Objects: adding '".\obj\comms.o"'
+### List of Objects: adding '".\obj\rs232_com.o"'
+### List of Objects: adding '".\obj\rs485_com.o"'
+### List of Objects: adding '".\obj\ff.o"'
+### List of Objects: adding '".\obj\sdcard.o"'
+### List of Objects: adding '".\obj\fattime.o"'
+### List of Objects: adding '".\obj\modem.o"'
+### List of Objects: adding '".\obj\sim900.o"'
+### List of Objects: adding '".\obj\at_command_parser.o"'
+### List of Objects: adding '".\obj\gsm_handler.o"'
+### List of Objects: adding '".\obj\sht1x.o"'
+### List of Objects: adding '".\obj\bmp180.o"'
+### List of Objects: adding '".\obj\bh1750.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M4.fp ".\obj\startup_stm32f40xx.o" ".\obj\misc.o" ".\obj\stm32f4xx_adc.o" ".\obj\stm32f4xx_dma.o" ".\obj\stm32f4xx_exti.o" ".\obj\stm32f4xx_flash.o" ".\obj\stm32f4xx_gpio.o" ".\obj\stm32f4xx_i2c.o" ".\obj\stm32f4xx_rcc.o" ".\obj\stm32f4xx_spi.o" ".\obj\stm32f4xx_tim.o" ".\obj\stm32f4xx_usart.o" ".\obj\stm32f4xx_wwdg.o" ".\obj\stm32f4xx_syscfg.o" ".\obj\main.o" ".\obj\stm32f4xx_it.o" ".\obj\system_stm32f4xx.o" ".\obj\system_config.o" ".\obj\systick.o" ".\obj\uart.o" ".\obj\input.o" ".\obj\output.o" ".\obj\adc.o" ".\obj\spi.o" ".\obj\ringbuf.o" ".\obj\m_time.o" ".\obj\sys_time.o" ".\obj\flash.o" ".\obj\sensor.o" ".\obj\jsmn.o" ".\obj\i2c.o" ".\obj\tracking.o" ".\obj\spiflash.o" ".\obj\db.o" ".\obj\mbhandler.o" ".\obj\portevent.o" ".\obj\portserial.o" ".\obj\porttimer.o" ".\obj\mb.o" ".\obj\mbcrc.o" ".\obj\mbrtu.o" ".\obj\mbascii.o" ".\obj\mbtcp.o" ".\obj\mbfunccoils.o" ".\obj\mbfuncdiag.o" ".\obj\mbfuncdisc.o" ".\obj\mbfuncholding.o" ".\obj\mbfuncinput.o" ".\obj\mbfuncother.o" ".\obj\mbutils.o" ".\obj\com.o" ".\obj\comms.o" ".\obj\rs232_com.o" ".\obj\rs485_com.o" ".\obj\ff.o" ".\obj\sdcard.o" ".\obj\fattime.o" ".\obj\modem.o" ".\obj\sim900.o" ".\obj\at_command_parser.o" ".\obj\gsm_handler.o" ".\obj\sht1x.o" ".\obj\bmp180.o" ".\obj\bh1750.o" 
+--library_type=microlib --strict --scatter ".\Obj\Agri.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lst\Agri.map" -o .\Obj\Agri.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Obj\Agri.axf'
+### ADS-LD Command File: '.\Obj\Agri.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Obj\Agri.lnp', Handle=0x000002C4
+### Writing '.lnp' file
+### ADS-LD Command file '.\Obj\Agri.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
